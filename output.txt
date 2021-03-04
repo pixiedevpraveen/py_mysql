@@ -1,20 +1,4 @@
-Before adding values to table (book):-
-    command and output:
-        mysql> show tables;
-        +------------------+
-        | Tables_in_my_db1 |
-        +------------------+
-        | book             |
-        +------------------+
-        1 row in set (0.00 sec)
-
-        mysql> SELECT * FROM book;
-
-        Empty set (0.01 sec)
-
-        mysql> _
-
-Before adding values to table (book):-
+Before adding Many values to table (book):-
     command and output:
         mysql> select * from book;
         +--------+----------+--------+
@@ -23,5 +7,20 @@ Before adding values to table (book):-
         |      1 | Let us C | 275.00 |
         +--------+----------+--------+
         1 row in set (0.02 sec)
+
+        mysql> _
+
+After adding Many values to table (book):-
+    command and output:
+        mysql> select * from book;
+        +--------+----------------+--------+
+        | bookid | title          | price  |
+        +--------+----------------+--------+
+        |      1 | Let us C       | 275.00 |
+        |      2 | Learn C++      | 250.00 |
+        |      4 | Java8          | 300.00 |
+        |      3 | Data structure | 350.00 |
+        +--------+----------------+--------+
+        4 rows in set (0.00 sec)
 
         mysql> _

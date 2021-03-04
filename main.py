@@ -8,15 +8,12 @@ myDb = mysql.connector.connect(
 myCursor = myDb.cursor()
 command = "INSERT INTO book (bookid, title, price) VALUES(%s, %s, %s)"
 
-sno = 1
-book_name = "Let us C"
-price = 275
-
-# tuple
-book1 = (sno, book_name, price)
+# list of tuples
+books = {(2, 'Learn C++', 250), (3, 'Data structure', 350),
+         (4, 'Java8', 300)}
 
 # for execute the query
-myCursor.execute(command, book1)
+myCursor.executemany(command, books)
 
 # for storing data or reflect changes to created database
 myDb.commit()
