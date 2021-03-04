@@ -1,37 +1,34 @@
-Before creating database:-
-    command:
-        show databases; 
+Before creating table:-
+    command and output:
+        mysql> use my_db1;
+        Reading table information for completion of table and column names
+        You can turn off this feature to get a quicker startup with -A
 
-    output:
-        mysql> show databases;
-
-        +--------------------+
-        | Database           |
-        +--------------------+
-        | information_schema |
-        | mysql              |
-        | performance_schema |
-        | sys                |
-        +--------------------+
-        4 rows in set (0.00 sec)
+        Database changed
+        mysql> show tables;
+        Empty set (0.01 sec)
 
         mysql> _
 
-After creating database:-
-    command:
-        show databases; 
+After creating table:-
+    command and output:
+        mysql> show tables;
+        +------------------+
+        | Tables_in_my_db1 |
+        +------------------+
+        | book             |
+        +------------------+
+        1 row in set (0.01 sec)
 
-    output:
-        mysql> show databases;
-        +--------------------+
-        | Database           |
-        +--------------------+
-        | information_schema |
-        | my_db1             |
-        | mysql              |
-        | performance_schema |
-        | sys                |
-        +--------------------+
-        5 rows in set (0.01 sec)
+
+        mysql> desc book;
+        +--------+-------------+------+-----+---------+-------+
+        | Field  | Type        | Null | Key | Default | Extra |
+        +--------+-------------+------+-----+---------+-------+
+        | bookid | int         | YES  |     | NULL    |       |
+        | title  | varchar(20) | YES  |     | NULL    |       |
+        | price  | float(5,2)  | YES  |     | NULL    |       |
+        +--------+-------------+------+-----+---------+-------+
+        3 rows in set (0.13 sec)
 
         mysql> _
