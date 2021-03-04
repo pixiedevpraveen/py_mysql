@@ -1,6 +1,7 @@
 import mysql.connector
-from .pr import pwd
+from pr import pwd
 
 myDb = mysql.connector.connect(host='localhost', user='root', password=pwd)
+myCursor = myDb.cursor()
 
-print(myDb.connection_id)
+myCursor.execute("CREATE DATABASE my_db1")
