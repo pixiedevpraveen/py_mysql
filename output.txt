@@ -1,16 +1,4 @@
-Before creating table:-
-    command and output:
-        mysql> use my_db1;
-        Reading table information for completion of table and column names
-        You can turn off this feature to get a quicker startup with -A
-
-        Database changed
-        mysql> show tables;
-        Empty set (0.01 sec)
-
-        mysql> _
-
-After creating table:-
+Before adding values to table (book):-
     command and output:
         mysql> show tables;
         +------------------+
@@ -18,17 +6,22 @@ After creating table:-
         +------------------+
         | book             |
         +------------------+
-        1 row in set (0.01 sec)
+        1 row in set (0.00 sec)
 
+        mysql> SELECT * FROM book;
 
-        mysql> desc book;
-        +--------+-------------+------+-----+---------+-------+
-        | Field  | Type        | Null | Key | Default | Extra |
-        +--------+-------------+------+-----+---------+-------+
-        | bookid | int         | YES  |     | NULL    |       |
-        | title  | varchar(20) | YES  |     | NULL    |       |
-        | price  | float(5,2)  | YES  |     | NULL    |       |
-        +--------+-------------+------+-----+---------+-------+
-        3 rows in set (0.13 sec)
+        Empty set (0.01 sec)
+
+        mysql> _
+
+Before adding values to table (book):-
+    command and output:
+        mysql> select * from book;
+        +--------+----------+--------+
+        | bookid | title    | price  |
+        +--------+----------+--------+
+        |      1 | Let us C | 275.00 |
+        +--------+----------+--------+
+        1 row in set (0.02 sec)
 
         mysql> _
