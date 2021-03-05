@@ -3,13 +3,15 @@
 
 
 ## Parts:-
- - [1. connect with mysql using user-pass and print connection_id](https://github.com/pixiedevpraveen/py_mysql/tree/f620192a7602325ea4a1146b4490cd6c968de6b0)
+ - [1. Connect with mysql using user-pass and print connection_id](https://github.com/pixiedevpraveen/py_mysql/tree/f620192a7602325ea4a1146b4490cd6c968de6b0)
 
- - [2. created a database called my_db1](https://github.com/pixiedevpraveen/py_mysql/tree/77cacf4a402e1fb2939e6048a26c18d479dd9306)
+ - [2. Created a database called my_db1](https://github.com/pixiedevpraveen/py_mysql/tree/77cacf4a402e1fb2939e6048a26c18d479dd9306)
 
- - [3. made a table called book(bookid, title and price)](https://github.com/pixiedevpraveen/py_mysql/tree/345511da1615fb5cc9c6baab1167e9ced60dc224)
+ - [3. Made a table called book(bookid, title and price)](https://github.com/pixiedevpraveen/py_mysql/tree/345511da1615fb5cc9c6baab1167e9ced60dc224)
 
- - [4. add values to book table in my_db1 database and commit it](https://github.com/pixiedevpraveen/py_mysql/tree/136556cfc8f58f8c33249adf7563a0be90d52396)
+ - [4. Add values to book table in my_db1 database and commit it](https://github.com/pixiedevpraveen/py_mysql/tree/136556cfc8f58f8c33249adf7563a0be90d52396)
+
+ - [5. Add many values to the my_db1 database and a README.md file](https://github.com/pixiedevpraveen/py_mysql/tree/b1218f43467b8c0ba977331c226d140312c5ca8a)
 
  ## Used Tools, Packages and Softwares:-
  - <b>[mysql](https://www.mysql.com/downloads/)</b> - or in Linux sudo apt install mysql
