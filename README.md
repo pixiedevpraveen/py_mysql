@@ -17,6 +17,8 @@
 
  - [7. Update the Table Record (book - my_db1)](https://github.com/pixiedevpraveen/py_mysql/tree/db91a550ce28304b1eec391177e4790e16c6dba9)
 
+ - [8. Delete Record Java8 from the table(book - my_db1)](https://github.com/pixiedevpraveen/py_mysql/tree/dda557f79344b6a41a8e20e49d363f154274cba0)
+
  ## Used Tools, Packages and Softwares:-
  - <b>[mysql](https://www.mysql.com/downloads/)</b> - or in Linux sudo apt install mysql
  - <b>[mysql-connector](https://pypi.org/project/mysql-connector/)</b> - pip install mysql-connector
