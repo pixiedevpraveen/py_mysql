@@ -15,6 +15,8 @@
 
  - [6. Extracting data from my_db1 Database and print to terminal](https://github.com/pixiedevpraveen/py_mysql/tree/4f774a237d19b69d54a7826eeec8c1cbd9c78b99)
 
+ - [7. Update the Table Record (book - my_db1)](https://github.com/pixiedevpraveen/py_mysql/tree/db91a550ce28304b1eec391177e4790e16c6dba9)
+
  ## Used Tools, Packages and Softwares:-
  - <b>[mysql](https://www.mysql.com/downloads/)</b> - or in Linux sudo apt install mysql
  - <b>[mysql-connector](https://pypi.org/project/mysql-connector/)</b> - pip install mysql-connector

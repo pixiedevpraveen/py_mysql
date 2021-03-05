@@ -6,7 +6,10 @@ myDb = mysql.connector.connect(
     host='localhost', user='root', password=pwd, database='my_db1')
 
 myCursor = myDb.cursor()
-command = "UPDATE book SET price=price+40 WHERE price<300"
+
+# 'DELETE FROM book' don't execute this
+# it'll delete all the data of book
+command = "DELETE FROM book WHERE title='Java8'"
 
 # for execute the query
 myCursor.execute(command)
