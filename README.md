@@ -13,6 +13,8 @@
 
  - [5. Add many values to the my_db1 database and a README.md file](https://github.com/pixiedevpraveen/py_mysql/tree/b1218f43467b8c0ba977331c226d140312c5ca8a)
 
+ - [6. Extracting data from my_db1 Database and print to terminal](https://github.com/pixiedevpraveen/py_mysql/tree/4f774a237d19b69d54a7826eeec8c1cbd9c78b99)
+
  ## Used Tools, Packages and Softwares:-
  - <b>[mysql](https://www.mysql.com/downloads/)</b> - or in Linux sudo apt install mysql
  - <b>[mysql-connector](https://pypi.org/project/mysql-connector/)</b> - pip install mysql-connector
